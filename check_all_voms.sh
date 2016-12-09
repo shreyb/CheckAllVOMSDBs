@@ -1,6 +1,11 @@
 #!/bin/sh
 
 # Parse opts
+if [[ $# = 0 ]] ; then
+	echo "Usage:  ./check_all_voms.sh [-u USERNAME] [DN|substr(DN)]"
+	exit 0
+fi
+
 while [[ $# -gt 0 ]]
 do
 	key=$1
