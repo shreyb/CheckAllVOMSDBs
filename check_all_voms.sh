@@ -65,4 +65,5 @@ done
 # Ideas for dev:
 # 2.  Have a visual format vs. a script format.  For the visual format, output each VO, and then the list of groups, roles for each one, and then the certs.  For the script format (for parsing by a script), output at each line, the vo, group, role,
 # dn, and date added to the certs table. 
+# 3.  Have ability to check all DBs for any registered cert, and then pull all the certs registered for that same user
 exit 0
